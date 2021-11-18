@@ -3,11 +3,56 @@
 <html>
     <header> 
         <meta charset="utf-8">
-        <title>Odin Recipes</title>
+        <title>Gordon Ramsay's Kitchen</title>
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Shadows+Into+Light&display=swap');
+            h1 {
+                font-family: 'Shadows Into Light', cursive;    
+                font-size: 40px;
+            }
+
+            html{
+                
+                background-image: url("../odin_recipes/img/fire.png");
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 100%;
+            }
+            .recipes {
+                  
+                border: 1px solid black; 
+                border-radius: 20px;
+                padding: 5px;
+                max-width: 55%;
+                background-color: #ffffff;
+                opacity: 0.6;
+
+            }
+            .recipes p{
+                font-family: 'Dosis', sans-serif; 
+                font-size: 24px;
+            }
+            </style> 
     </header>   
 
     <body>
-        <h1>Odin Recipes</h1>
-        <a href="recipes/eggs.html">GORDON'S SOFT SCRAMBLE AND BACON JAM TOAST</a>
+        <div class="wrapper">
+        <center>
+        <h1>Delicious Recipes for a Kitchen Nightmare</h1>
+        <div style="width:35%"><div style="height:0;padding-bottom:56.25%;position:relative;width:100%"><iframe allowfullscreen="" frameBorder="0" height="100%" src="https://giphy.com/embed/MdZNKn0ahuy818JwT3/video" style="left:0;position:absolute;top:0" width="100%"></iframe></div></div>
+        <br>
+        <div class="recipes">
+            <p>
+            <a href="recipes/eggs.html">Soft Scramble and Bacon Jam Toast</a>
+            <br><br>
+            <a href="recipes/lamb.html">Crispy Confit Lamb Shoulder with Buttered Baby Spring Vegetables, Sunchoke Puree, Chips & Caper Salsa Verde</a>
+            <br><br>
+            <a href="recipes/toffee.html">Individual Sticky Toffee Puddings</a>
+            </p>    
+        </div>
+        </center>
+        </div>
     </body>
 </html>
